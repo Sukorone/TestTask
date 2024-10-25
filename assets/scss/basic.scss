@@ -1,0 +1,30 @@
+html,
+body {
+    background: var(--background-color);
+}
+
+*,
+p,
+h1,
+h2,
+h3,     
+h4,
+h5,
+h6,
+span,
+a,
+ul,
+li,
+label,
+input,
+textarea,
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+    color: var(--primary-color);
+    @media screen and (max-width: 450px) {
+        font-size: 12px !important;
+    }
+}
